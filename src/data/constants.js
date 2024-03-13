@@ -374,26 +374,19 @@ export const projects = [
   //     },
   //   ],
   // },
-  // {
-  //   id: 1,
-  //   title: "Vexa",
-  //   date: "Oct 2022 - Present",
-  //   description:
-  //     "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-  //   tags: [
-  //     "React Js",
-  //     "MongoDb",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //     "NodeMailer",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Project-Management-App",
-  //   webapp: "https://vexa-app.netlify.app/",
-  // },
+  {
+    id: 1,
+    title: "Crypto Tracker",
+    date: "Jan 2024 - Present",
+    description:
+      "Designed and developed the Crypto Tracker project, a cryptocurrency tracking app that helps users stay updated with the latest trends in the crypto market. Built using ReactJS, this app allows users to track the real-time prices of various cryptocurrencies, their market capitalization, and other key statistics. Key features such as crypto tracking, currency comparison have been implemented to enhance user experience and investment outcomes. Users can also add their favorite cryptocurrencies to a watchlist for easy access and monitoring. This project aims to be a comprehensive platform for all things crypto, providing users with the tools they need to navigate the dynamic world of cryptocurrency.",
+    image:
+      "https://github.com/sanskar74/Crypto-Tracker/blob/main/home.png?raw=true",
+    tags: ["React Js", "React Routes", "HTML", "CSS", "Material UI"],
+    category: "web app",
+    github: "https://github.com/sanskar74/Crypto-Tracker",
+    webapp: "https://crypto-tracker-dash.netlify.app/",
+  },
   // {
   //   id: 2,
   //   title: "Brain Tumor Detection",
@@ -428,7 +421,7 @@ export const projects = [
     description:
       "Developed a fully functional YouTube Clone using HTML, CSS, and JavaScript to replicate the core features and user experience of the popular video-sharing platform. Designed and implemented an intuitive user interface that closely resembles the original YouTube, ensuring a familiar and seamless browsing experience for users. Leveraged modern web technologies to build features such as video playback, search functionality, video recommendations, user comments, and likes/dislikes.",
     image:
-      "https://private-user-images.githubusercontent.com/117890001/298157450-4b2165c9-d755-463d-ac9f-0b5147a881ca.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU2ODc5MjAsIm5iZiI6MTcwNTY4NzYyMCwicGF0aCI6Ii8xMTc4OTAwMDEvMjk4MTU3NDUwLTRiMjE2NWM5LWQ3NTUtNDYzZC1hYzlmLTBiNTE0N2E4ODFjYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExOVQxODA3MDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYTRkNTU4ZWNkMTE0YzkxN2IyY2Y2MTRiNmQxNDhmNGJiZWViOTRhNWU2NGIzMGJiZTlkMGQ4MzVkMGRiZjM4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.gsAe2YzTINgGy0g6dy-XfM3XQsEo_FBncWiDtwDdQhc",
+      "https://github.com/sanskar74/youtube-clone/blob/master/youtube.png?raw=true",
     tags: ["HTML", "CSS", "JavaScript", "Youtube API"],
     category: "android app",
     github: "https://github.com/sanskar74/youtube-clone",
@@ -441,8 +434,8 @@ export const projects = [
     description:
       "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
     image:
-      "https://private-user-images.githubusercontent.com/117890001/298306449-37d4df7e-072c-4772-94cc-fee26011a1bd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU3ODM0NjcsIm5iZiI6MTcwNTc4MzE2NywicGF0aCI6Ii8xMTc4OTAwMDEvMjk4MzA2NDQ5LTM3ZDRkZjdlLTA3MmMtNDc3Mi05NGNjLWZlZTI2MDExYTFiZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyMFQyMDM5MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ODViNzhjYzhkYzkwNmUxZWRiNTUzN2ZkZDJmZDM3NzYwYmZlZTUwNmFiN2MzYWU2MzcyZjZhMTM5ZDk4OTVmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.NQAdZE8kwEv3JwzX6dsytCl-XdmpBiflJeEBSIlSNBA",
-    tags: ["React Native", "JavaScript", "Axios"],
+      "https://github.com/sanskar74/F3_Module_Test/blob/master/Screenshot%20(824).png?raw=true",
+    tags: ["JavaScript", "Axios", "HTML", "CSS", "Youtube API"],
     category: "android app",
     github: "https://github.com/sanskar74/F3_Module_Test",
     webapp: "https://sanskar74.github.io/F3_Module_Test/",
@@ -454,8 +447,8 @@ export const projects = [
     description:
       "Introducing the Amazon Clone Project: An impeccable replica of Amazon's UI, showcasing its aesthetic appeal and responsive design. Explore its educational value as a learning resource, and leverage the project's solid foundation for customization, turning it into a dynamic, feature-rich platform tailored to your creative vision.",
     image:
-      "https://private-user-images.githubusercontent.com/117890001/298149342-196cf718-4704-468c-af68-5f6eea24e25a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU2ODU4NTcsIm5iZiI6MTcwNTY4NTU1NywicGF0aCI6Ii8xMTc4OTAwMDEvMjk4MTQ5MzQyLTE5NmNmNzE4LTQ3MDQtNDY4Yy1hZjY4LTVmNmVlYTI0ZTI1YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExOVQxNzMyMzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNjA0NmQyZGNhMTc1ZTc2ODQwNWFkNDk3MDMyNGEzNzliN2RjYmQ5N2YyMDQ1MDJiOWIxOTFkOTU1MmM4NTY3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.IkB18_UPwe0iMbS9uzJb7n1glxKGpUZvA1mBCnvSwtc",
-    tags: ["HTML", "CSS", "JavaScript",],
+      "https://github.com/sanskar74/Octanet_July_Task3/blob/master/amazon.png?raw=true",
+    tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/sanskar74/Octanet_July_Task3",
     webapp: "https://sanskar74.github.io/Octanet_July_Task3/",
@@ -467,7 +460,7 @@ export const projects = [
     description:
       "Developed a responsive weather application using HTML, CSS, and JavaScript to provide real-time weather information. Implemented an intuitive user interface with modern design principles, ensuring a seamless user experience across various devices. Utilized APIs (Application Programming Interfaces) such as OpenWeatherMap to fetch weather data anddisplayed it in a visually appealing manner.",
     image:
-      "https://private-user-images.githubusercontent.com/117890001/298306808-ff4e274f-2605-4c44-bbb2-5cf14b71abbc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU3ODM4MDIsIm5iZiI6MTcwNTc4MzUwMiwicGF0aCI6Ii8xMTc4OTAwMDEvMjk4MzA2ODA4LWZmNGUyNzRmLTI2MDUtNGM0NC1iYmIyLTVjZjE0YjcxYWJiYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyMFQyMDQ1MDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZDMwYTZhNWUwNzUxZGUyZjgxYjNhODViNDYyZWRiNWQyYTM4ZDBjMWQ0MDY3MjFhNWZmMzQ3ODg2OGU5Njk1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.hMEaj-vAumn1lwYGQS2KCkSJucQTJ1xC4sbQ9a44Sgk",
+      "https://github.com/sanskar74/Weather-App/blob/master/weather.png?raw=true",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/sanskar74/Weather-App",
@@ -480,7 +473,7 @@ export const projects = [
     description:
       "'ShopEase' is a dynamic shopping cart app using HTML, CSS, and advanced JS. Features secure user authentication, API-driven product display, efficient cart management, and Razorpay integration. Elevate user experience with stylish HTML/CSS animations.",
     image:
-      "https://private-user-images.githubusercontent.com/117890001/298091957-634a3898-3d97-4be0-9bff-fd861618dc5a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU2NzM4MjcsIm5iZiI6MTcwNTY3MzUyNywicGF0aCI6Ii8xMTc4OTAwMDEvMjk4MDkxOTU3LTYzNGEzODk4LTNkOTctNGJlMC05YmZmLWZkODYxNjE4ZGM1YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExOVQxNDEyMDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMmUzOTU2ODg4NmEyYjFjNjM5NGVkYWRjZThkNzZjZGVhYTAxMWY2Y2MyZmYwNjkxMjdmZjAxZGEwNTk3Y2YyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.xh_hRn6XwCbcfUsANKZM6zYiJu6LqJdvAXpBOGJ28UI",
+      "https://github.com/sanskar74/f3_shoppingcart/blob/master/meesho.png?raw=true",
     tags: ["JavaScript", "React Js", "API", "Axios", "Node JS"],
     category: "web app",
     github: "https://github.com/sanskar74/f3_shoppingcart",
